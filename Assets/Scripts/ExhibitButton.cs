@@ -29,7 +29,7 @@ public class ExhibitButton : MonoBehaviour
 
     void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject.CompareTag("Player"))
+        if (collider.transform.root.CompareTag("Player"))
         {
             inRange = true;
             isVisible = true;
@@ -38,6 +38,9 @@ public class ExhibitButton : MonoBehaviour
             if (uiInstance == null)
             {
                 uiInstance = Instantiate(UIPrefab, transform);
+                Canvas canvas = uiInstance.GetComponent<Canvas>();
+                if (canvas != null)
+                    canvas.worldCamera = Camera.main;
                 ExhibitInfo uiScript = uiInstance.GetComponent<ExhibitInfo>();
                 if (uiScript != null)
                     uiScript.SetText(exhibitData);

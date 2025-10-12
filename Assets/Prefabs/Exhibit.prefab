@@ -68,7 +68,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   exhibitData: {fileID: 0}
-  UIPrefab: {fileID: 1953989419768156461, guid: 40981b8da88a34c9291f6146278315d3, type: 3}
+  UIPrefab: {fileID: 8578095991411519969, guid: 40981b8da88a34c9291f6146278315d3, type: 3}
 --- !u!54 &1654938373570879761
 Rigidbody:
   m_ObjectHideFlags: 0
