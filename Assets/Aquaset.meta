@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Aquaset.meta
 guid: c3e77b77daa249e43b341ea46cf894c8
+========
+guid: 684dfbf5f0f8649bda932972464976fe
+>>>>>>>> 9576b57 (feat: add new exhibit models to the scene):Assets/Models/196488-armor-for-man-and-horse/source/Materials.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
