@@ -4,36 +4,15 @@ public class ExhibitButton : MonoBehaviour
 {
     [SerializeField] ExhibitDataSO exhibitData;
     [SerializeField] GameObject UIPrefab;
+    [SerializeField] Vector3 uiPosition = new Vector3(-1, 1.5f, 1.5f);
+    [SerializeField] Vector3 uiRotation = new Vector3(0, 0, 0);
     GameObject uiInstance;
-    bool isVisible = false;
-    bool inRange = false;
-
-    void Update()
-    {
-        // todo: replace with vr input
-        if (Input.GetKeyDown(KeyCode.B) && inRange)
-        {
-            Debug.Log("Exhibit Button Pressed");
-            if (!isVisible)
-            {
-                // Show Exhibit Information UI
-                isVisible = true;
-            }
-            else
-            {
-                // Hide Exhibit Information UI
-                isVisible = false;
-            }
-        }
-    }
+    RectTransform uiTransform;
 
     void OnTriggerEnter(Collider collider)
     {
         if (collider.transform.root.CompareTag("Player"))
         {
-            inRange = true;
-            isVisible = true;
-
             // Show Exhibit Information UI
             if (uiInstance == null)
             {
@@ -44,7 +23,14 @@ public class ExhibitButton : MonoBehaviour
                 ExhibitInfo uiScript = uiInstance.GetComponent<ExhibitInfo>();
                 if (uiScript != null)
                     uiScript.SetText(exhibitData);
+
+                uiTransform = uiInstance.GetComponent<RectTransform>();
             }
+
+            // Set the UI position and rotation
+            uiTransform.anchoredPosition3D = uiPosition;
+            Quaternion rotation = Quaternion.RotateTowards(uiTransform.rotation, Quaternion.Euler(uiRotation), 360f);
+            uiTransform.Rotate(rotation.eulerAngles);
         }
     }
 
@@ -55,7 +41,5 @@ public class ExhibitButton : MonoBehaviour
         {
             Destroy(uiInstance);
         }
-        inRange = false;
-        isVisible = false;
     }
 }
