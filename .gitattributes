@@ -1,1 +1,4 @@
 Assets/Models/cesar-louvre-museum/source/CESAR.obj filter=lfs diff=lfs merge=lfs -text
+Assets/Models/1972158-pair-of-guardian-kings-nio/textures/Guardian_1_normal.png filter=lfs diff=lfs merge=lfs -text
+Assets/Models/1972158-pair-of-guardian-kings-nio/textures/Guardian_2_normal.png filter=lfs diff=lfs merge=lfs -text
+Assets/Models/the-sword-of-victory/source/a2471bc5f18d443aa957159a8ac0f980.rar/Map__12_Normal[[:space:]]Bump.tga filter=lfs diff=lfs merge=lfs -text
