@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94872708bfe9e4851981e9e1837f1ac3, type: 3}
+  m_Name: Horse
+  m_EditorClassIdentifier: 
+  exhibitName: Armour for Man and Horse
+  description: "It is possible that this armor made for both man and horse originally
+    belonged to a \"garniture,\" an armor with multiple customized exchange elements
+    that could convert the basic suit to various field and sporting uses. The total
+    combined weight of both the man's and horse's armor is 114 pounds. The etched
+    decoration of this armor is of a type that became fashionable in northern Italy
+    during the late 1500s. It consists of ornamental bands of etched figures, animals,
+    portrait busts, and armor trophies. In addition, a coat of arms is represented
+    seven times in different places\u2014the center of the breastplate and blackplate,
+    the front and back of each pauldron (shoulder defense), and the center of the
+    peytral (horse's breastplate). The coat of arms is that of the Colonna family
+    quartered with another, still unidentified family. It probably belonged to an
+    unknown member of the V\xF6ls-Colonna family from the South Tyrol, now part of
+    northern Italy."
+  images: []
