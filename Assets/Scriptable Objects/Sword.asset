@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94872708bfe9e4851981e9e1837f1ac3, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  exhibitName: The Sword of Victory
+  description: 'The Sword was ceremonially gifted to the Tula state arms museum in
+    Tula, Russia on 7th May 2015 marking the 70th anniversary of the victory in Great
+    Patriotic War (WWII). It is one of several made in the Zlatoust arms factory
+    and ceremonially gifted to various "Hero Cities" of the Soviet Union. The sword
+    is hand-made from famous Zlatoust steel. It is 120 cm (about 47 inches) long,
+    weighs over five kilograms, and is decorated with floral ornaments. One side
+    of the blade features an inscription specific to Tula while the other side bears
+    a quotation attributed to Alexander Nevsky: "Who with a sword will come to us,
+    he will die by the sword".'
+  images: []
