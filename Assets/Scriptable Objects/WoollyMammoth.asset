@@ -13,43 +13,18 @@ MonoBehaviour:
   m_Name: WoollyMammoth
   m_EditorClassIdentifier: 
   exhibitName: Woolly Mammoth
-  description: "The woolly mammoth (Mammuthus primigenius) is an extinct species
-    of mammoththat lived from the Middle Pleistocene until its extinction in the
-    Holocene epoch. It was one of the last in a line of mammoth species, beginning
-    with the African Mammuthus subplanifrons in the early Pliocene. The woolly mammoth
-    began to diverge from the steppe mammoth about 800,000 years ago in Siberia.
-    Its closest extant relative is the Asian elephant. The Columbian mammoth (Mammuthus
-    columbi) lived alongside the woolly mammoth in North America, and DNA studies
-    show that the two hybridised with each other. Mammoth remains were long known
-    in Asia before they became known to Europeans. The origin of these remains was
-    long debated and often explained as the remains of legendary creatures. The mammoth
-    was identified as an extinct elephant species by Georges Cuvier in 1796. \n\nThe
-    appearance and behaviour of the woolly mammoth are among the best studied of
-    any prehistoric animal because of the discovery of frozen carcasses in Siberia
-    and North America, as well as skeletons, teeth, stomach contents, dung, and depiction
-    from life in prehistoric cave paintings. It was roughly the same size as modern
-    African elephants. Males reached shoulder heights between 2.67 and 3.49 m (8
-    ft 9 in and 11 ft 5 in) and weighed between 3.9 and 8.2 t (3.8 and 8.1 long tons;
-    4.3 and 9.0 short tons). Females reached 2.3\u20132.6 m (7 ft 7 in \u2013 8 ft
-    6 in) in shoulder heights and weighed between 2.8\u20134 t (2.8\u20133.9 long
-    tons; 3.1\u20134.4 short tons). A newborn calf weighed about 90 kg (200 lb).
-    The woolly mammoth was well adapted to the cold environments present during glacial
-    periods, including the last ice age. It was covered in fur, with an outer covering
-    of long guard hairs and a shorter undercoat. The colour of the coat varied from
-    dark to light. The ears and tail were short to minimise frostbite and heat loss.
-    It had long, curved tusks and four molars, which were replaced six times during
-    the lifetime of an individual. Its behaviour was similar to that of modern elephants,
-    and it used its tusks and trunk for manipulating objects, fighting, and foraging.
-    The diet of the woolly mammoth was mainly grasses and sedges. Individuals could
-    probably reach the age of 60. Its habitat was the mammoth steppe, which stretched
-    across northern Eurasia and North America. \n\nThe woolly mammoth coexisted with
-    early humans, who hunted the species for food, and used its bones and tusks for
-    making art, tools, and dwellings. The population of woolly mammoths declined
-    at the end of the Late Pleistocene, with the last populations on mainland Siberia
-    persisting until around 10,000 years ago, although isolated populations survived
-    on St. Paul Island until 5,600 years ago and on Wrangel Island until 4,000 years
-    ago. After its extinction, humans continued using it's ivory as a raw material,
-    a tradition that continues today. The completion of the mammoth genome project
-    in 2015 sparked discussion about potentially reviving the woolly mammoth through
-    several various methods. However, none of these approaches are currently feasible. "
+  description: "The woolly mammoth (Mammuthus primigenius) is a species of mammoth
+    that lived from the Pleistocene period until the last ones died in the Holocene
+    epoch. Woolly mammoths are now extinct, so we cannot see them anymore. They were
+    large elephants which lived during the ice ages. The animal is known from bones
+    and frozen carcasses from northern North America and northern Eurasia. The best-preserved
+    carcasses (including Yuka) were found in Siberia. These mammoths are perhaps
+    the most well known and most iconic species of mammoth. This mammoth species
+    was first recorded in deposits of a former glaciation in Eurasia, perhaps 150,000
+    years ago.[1][2] Their closest living relatives are Asian elephants. \n\nWoolly
+    mammoths coexisted with early humans, who hunted them, and their bones and tusks
+    were used as tools, and dwellings. Mammoths were also hunted for food. The species
+    disappeared from most of its range at the end of the Pleistocene (10,000 years
+    ago), but a dwarfed race and small populations still lived on Wrangel Island
+    until about 1700 BC."
   images: []

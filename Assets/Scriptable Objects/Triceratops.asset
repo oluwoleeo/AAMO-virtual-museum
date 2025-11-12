@@ -13,36 +13,14 @@ MonoBehaviour:
   m_Name: Triceratops
   m_EditorClassIdentifier: 
   exhibitName: Triceratops
-  description: "Triceratops (/tra\u026A\u02C8s\u025Br\u0259t\u0252ps/ try-SERR-\u0259-tops;
-    lit.\u2009'three-horned face') is a genus of chasmosaurine ceratopsian dinosaur
-    that lived during the late Maastrichtian age of the Late Cretaceous period, about
-    68 to 66 million years ago on the island continent of Laramidia, now forming
-    western North America. It was one of the last-known non-avian dinosaurs and lived
-    until the Cretaceous\u2013Paleogene extinction event 66 million years ago. The
-    name Triceratops, which means 'three-horned face', is derived from the Ancient
-    Greek words \u03C4\u03C1\u03AF-(tr\xED-), meaning \"three\", \u03BA\u03AD\u03C1\u03B1\u03C2
-    (k\xE9ras), meaning \"horn\", and \u1F64\u03C8 (\u1E53ps), meaning \"face\".\n\nBearing
-    a large bony frill, three horns on the skull, and a large, four-legged body,
-    exhibiting convergent evolution with rhinoceroses, Triceratops is one of the
-    most recognizable of all dinosaurs and the best-known ceratopsian. It was also
-    one of the largest, measuring around 8\u20139 m (26\u201330 ft) long and weighing
-    up to 6\u201310 t (5.9\u20139.8 long tons; 6.6\u201311.0 short tons). It shared
-    the landscape with and was most likely preyed upon by Tyrannosaurus. The functions
-    of the frills and three distinctive facial horns on its head have inspired countless
-    debates. Traditionally, these have been viewed as defensive weapons against predators.
-    More recent interpretations find it probable that these features were primarily
-    used in species identification, courtship, and dominance display, much like the
-    antlers and horns of modern ungulates.\n\nTriceratops was traditionally placed
-    within the \"short-frilled\" ceratopsids, but modern cladisticstudies show it
-    to be a member of Chasmosaurinae, which usually have long frills. Two species,
-    T. horridus and T. prorsus, are considered valid today. Seventeen different species,
-    however, have been named throughout history. Research published in 2010 concluded
-    that the contemporaneous Torosaurus, a ceratopsid long regarded as a separate
-    genus, represents Triceratops in its mature form. This view is still highly disputed,
-    and much more data is needed to settle this ongoing debate.\n\nTriceratops has
-    been documented by numerous remains collected since the genus was first described
-    in 1889 by American paleontologist Othniel Charles Marsh. Specimens representing
-    life stages from hatchling to adult have been found. As the archetypalceratopsian,
-    Triceratops is one of the most beloved, popular dinosaurs and has been featured
-    in numerous films, postage stamps, and many other media types. "
+  description: "Triceratops was a huge herbivorous ceratopsid dinosaur from the late
+    Cretaceous. Its name means three horned face which it gets from having three
+    horns on its head. They were mainly found in North America. As adults, they grew
+    up to 9 m (30 ft) long by 3 m (9.8 ft) tall and probably weighed around 12 t
+    (26,000 lb). Fully-grown, their skull was enormous (two meters long and nearly
+    a meter wide). \n\nTriceratops was a low browser with a bony beak in front of
+    its jaws. The jaws had close-set grinding teeth. Its defence had to stand up
+    to attacks from taller theropods, hence the bony shield which covered its neck.
+    Holes made by teeth have been found on the bony frill behind the horns, and on
+    the sacrum (the part of the spine above the pelvis). "
   images: []
