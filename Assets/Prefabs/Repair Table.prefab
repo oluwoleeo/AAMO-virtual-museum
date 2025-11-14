@@ -111,9 +111,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fracturedPrefab: {fileID: 0}
   completedPrefab: {fileID: 0}
+  particleSystemPrefab: {fileID: 6230852345639554536, guid: 92696c8c28b624854a97aceb0caa80e6, type: 3}
   completedPosition: {fileID: 1560718518583774967}
   fracturedPosition: {fileID: 9119528988455410162}
   spacing: 0
+  socketRadius: 0.1
 --- !u!1001 &367025348792974848
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -127,6 +129,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 50ccd0fdb76fb41faa76a7a9c3bc2488, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 50ccd0fdb76fb41faa76a7a9c3bc2488, type: 3}
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
@@ -136,7 +142,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 50ccd0fdb76fb41faa76a7a9c3bc2488, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.24
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 50ccd0fdb76fb41faa76a7a9c3bc2488, type: 3}
       propertyPath: m_LocalPosition.z
