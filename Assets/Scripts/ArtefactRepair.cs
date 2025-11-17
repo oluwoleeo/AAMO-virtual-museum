@@ -8,6 +8,8 @@ public class ArtefactRepair : MonoBehaviour
     GameObject fracturedInstance;
     [SerializeField] GameObject completedPrefab;
     GameObject completedInstance;
+    GameObject guideInstance;
+    [SerializeField] Material outlineMaterial;
     [SerializeField] GameObject particleSystemPrefab;
     // Game object that holds the puzzle slots
     GameObject slotInstance;
@@ -22,57 +24,7 @@ public class ArtefactRepair : MonoBehaviour
 
     void Start()
     {
-        // Instantiate the fractured prefab as a child of the table
-        fracturedInstance = Instantiate(fracturedPrefab, transform);
-        fracturedInstance.transform.position = completedPosition.position;
-
-        // Get all the individual pieces
-        pieceCount = fracturedInstance.transform.childCount;
-        pieceList = GetAllChildren(fracturedInstance.transform);
-        slotList = new GameObject[pieceCount];
-
-        // Create an empty game object where the pieces will go
-        slotInstance = new GameObject("slots");
-        slotInstance.transform.position = completedPosition.position;
-
-        // Create child game objects for each slot and make them children of the slot instance
-        for (int i = 0; i < pieceCount; i++)
-        {
-            GameObject slot = new GameObject("slot " + i);
-            slot.transform.SetParent(slotInstance.transform);
-            slot.transform.position = pieceList[i].transform.position;
-            slot.transform.rotation = pieceList[i].transform.rotation;
-
-            // Add the slot to the slot list
-            slotList[i] = slot;
-
-            // Add the XR socket interactor component
-            XRSocketInteractor socket = slot.AddComponent<XRSocketInteractor>();
-
-            // Subscribe to the select entered and exited events
-            socket.selectEntered.AddListener(OnObjectSnap);
-            socket.selectExited.AddListener(OnObjectUnsnap);
-
-            // Add the sphere collider
-            SphereCollider sphere = slot.AddComponent<SphereCollider>();
-            sphere.isTrigger = true;
-            sphere.radius = socketRadius;
-        }
-
-        // Reposition the fractured instance to the other side of the table
-        fracturedInstance.transform.position = fracturedPosition.position;
-
-        // Attach a mesh collider to each child and the xr grab interactable script
-        foreach (GameObject piece in pieceList)
-        {
-            MeshCollider mesh = piece.AddComponent<MeshCollider>();
-            mesh.convex = true;
-            XRGrabInteractable xrGrab = piece.AddComponent<XRGrabInteractable>();
-
-            // Enable dynamic attachment
-            xrGrab.useDynamicAttach = true;
-            xrGrab.snapToColliderVolume = false;
-        }
+        ResetPuzzle();
     }
 
     // Get all children from the parent game object
@@ -98,9 +50,10 @@ public class ArtefactRepair : MonoBehaviour
         // Instantiate and play particle effect
         Instantiate(particleSystemPrefab, completedPosition.position, Quaternion.identity);
 
-        // Destroy the fractured instance and slot instance
+        // Destroy the fractured instance, slot instance and guide instance
         Destroy(fracturedInstance);
         Destroy(slotInstance);
+        Destroy(guideInstance);
     }
 
     bool CompareIndices(GameObject piece, GameObject slot)
@@ -162,5 +115,84 @@ public class ArtefactRepair : MonoBehaviour
     {
         // Get the xr grab interactable component from the snapped object
         XRGrabInteractable grabbedObject = args.interactableObject as XRGrabInteractable;
+    }
+
+    void DestroyInstances()
+    {
+        if (fracturedInstance != null)
+            Destroy(fracturedInstance);
+        if (slotInstance != null)
+            Destroy(slotInstance);
+        if (guideInstance != null)
+            Destroy(guideInstance);
+        if (completedInstance != null)
+            Destroy(completedInstance);
+    }
+
+    public void ResetPuzzle()
+    {
+        // Destroy existing instances if they exist
+        DestroyInstances();
+
+        // Instantiate the completed prefab as a guide
+        guideInstance = Instantiate(completedPrefab, transform);
+        guideInstance.transform.position = completedPosition.position;
+
+        // Replace the guide material with the outline material
+        MeshRenderer renderer = guideInstance.GetComponentInChildren<MeshRenderer>();
+        if (renderer != null)
+            renderer.material = outlineMaterial;
+
+        // Instantiate the fractured prefab as a child of the table
+        fracturedInstance = Instantiate(fracturedPrefab, transform);
+        fracturedInstance.transform.position = completedPosition.position;
+
+        // Get all the individual pieces
+        pieceCount = fracturedInstance.transform.childCount;
+        pieceList = GetAllChildren(fracturedInstance.transform);
+        slotList = new GameObject[pieceCount];
+
+        // Create an empty game object where the pieces will go
+        slotInstance = new GameObject("slots");
+        slotInstance.transform.position = completedPosition.position;
+
+        // Create child game objects for each slot and make them children of the slot instance
+        for (int i = 0; i < pieceCount; i++)
+        {
+            GameObject slot = new GameObject("slot " + i);
+            slot.transform.SetParent(slotInstance.transform);
+            slot.transform.position = pieceList[i].transform.position;
+            slot.transform.rotation = pieceList[i].transform.rotation;
+
+            // Add the slot to the slot list
+            slotList[i] = slot;
+
+            // Add the XR socket interactor component
+            XRSocketInteractor socket = slot.AddComponent<XRSocketInteractor>();
+
+            // Subscribe to the select entered and exited events
+            socket.selectEntered.AddListener(OnObjectSnap);
+            socket.selectExited.AddListener(OnObjectUnsnap);
+
+            // Add the sphere collider
+            SphereCollider sphere = slot.AddComponent<SphereCollider>();
+            sphere.isTrigger = true;
+            sphere.radius = socketRadius;
+        }
+
+        // Reposition the fractured instance to the other side of the table
+        fracturedInstance.transform.position = fracturedPosition.position;
+
+        // Attach a mesh collider to each child and the xr grab interactable script
+        foreach (GameObject piece in pieceList)
+        {
+            MeshCollider mesh = piece.AddComponent<MeshCollider>();
+            mesh.convex = true;
+            XRGrabInteractable xrGrab = piece.AddComponent<XRGrabInteractable>();
+
+            // Enable dynamic attachment
+            xrGrab.useDynamicAttach = true;
+            xrGrab.snapToColliderVolume = false;
+        }
     }
 }
