@@ -8696,6 +8696,18 @@ PrefabInstance:
       value: Repair Table
       objectReference: {fileID: 0}
     - target: {fileID: 8262310174512270587, guid: 05c723a4bcbd2426e9b23ee4ae39bb0c, type: 3}
+      propertyPath: exhibitData
+      value: 
+      objectReference: {fileID: 11400000, guid: 66106553cedc1480d8ffc34c639fe3c4, type: 2}
+    - target: {fileID: 8262310174512270587, guid: 05c723a4bcbd2426e9b23ee4ae39bb0c, type: 3}
+      propertyPath: uiPosition.x
+      value: -2.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8262310174512270587, guid: 05c723a4bcbd2426e9b23ee4ae39bb0c, type: 3}
+      propertyPath: uiPosition.y
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8262310174512270587, guid: 05c723a4bcbd2426e9b23ee4ae39bb0c, type: 3}
       propertyPath: completedPrefab
       value: 
       objectReference: {fileID: 3204547142122755602, guid: 3d391f5f820664db3bf72f49f1056b12, type: 3}
