@@ -19,8 +19,15 @@ public class ArtefactRepair : MonoBehaviour
     GameObject[] pieceList;
     GameObject[] slotList;
     int pieceCount;
-    int correctPiecees = 0;
+    int correctPieces = 0;
     [SerializeField] float socketRadius = 0.1f;
+
+    [Header("Exhibit Info UI")]
+    [SerializeField] GameObject UIPrefab;
+    [SerializeField] ExhibitDataSO exhibitData;
+    [SerializeField] Vector3 uiPosition = new Vector3(-1, 1.5f, 1.5f);
+    [SerializeField] Vector3 uiRotation = new Vector3(0, 0, 0);
+    GameObject uiInstance;
 
     void Start()
     {
@@ -50,10 +57,11 @@ public class ArtefactRepair : MonoBehaviour
         // Instantiate and play particle effect
         Instantiate(particleSystemPrefab, completedPosition.position, Quaternion.identity);
 
-        // Destroy the fractured instance, slot instance and guide instance
-        Destroy(fracturedInstance);
-        Destroy(slotInstance);
-        Destroy(guideInstance);
+        // Destroy the fractured, slot, guide and ui instances
+        DestroyInstances(reset: false);
+
+        // Show the exhibit information UI
+        uiInstance = ExhibitButton.ShowExhibitInfo(uiInstance, transform, UIPrefab, exhibitData, uiPosition, uiRotation);
     }
 
     bool CompareIndices(GameObject piece, GameObject slot)
@@ -62,10 +70,10 @@ public class ArtefactRepair : MonoBehaviour
         if (Array.IndexOf(pieceList, piece) == Array.IndexOf(slotList, slot))
         {
             // Increase the correct pieces count
-            correctPiecees++;
+            correctPieces++;
 
             // Check if all pieces are in the correct slots
-            if (correctPiecees >= pieceCount)
+            if (correctPieces >= pieceCount)
             {
                 CompletePuzzle();
             }
@@ -117,7 +125,7 @@ public class ArtefactRepair : MonoBehaviour
         XRGrabInteractable grabbedObject = args.interactableObject as XRGrabInteractable;
     }
 
-    void DestroyInstances()
+    void DestroyInstances(bool reset = false)
     {
         if (fracturedInstance != null)
             Destroy(fracturedInstance);
@@ -125,14 +133,16 @@ public class ArtefactRepair : MonoBehaviour
             Destroy(slotInstance);
         if (guideInstance != null)
             Destroy(guideInstance);
-        if (completedInstance != null)
+        if (completedInstance != null && reset)
             Destroy(completedInstance);
+        if (uiInstance != null)
+            Destroy(uiInstance);
     }
 
     public void ResetPuzzle()
     {
         // Destroy existing instances if they exist
-        DestroyInstances();
+        DestroyInstances(reset: true);
 
         // Instantiate the completed prefab as a guide
         guideInstance = Instantiate(completedPrefab, transform);
