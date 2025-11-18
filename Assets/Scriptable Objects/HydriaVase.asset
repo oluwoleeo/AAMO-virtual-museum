@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94872708bfe9e4851981e9e1837f1ac3, type: 3}
+  m_Name: HydriaVase
+  m_EditorClassIdentifier: 
+  exhibitName: Hydria Apothecary Vase
+  description: "A hydria-type apothecary maiolica vase created in Savona (Italy)
+    in the late 17th century. Handles in the shape of (fantastic) animal heads on
+    massive bent necks. At the front, towards the bottom of the vase, a gargoyle
+    in relief. Plugged with regular cork, its mouth doubles as an opening for pouring
+    out the contents of the vase. Smaller gargoyles, without any openings, located
+    under the handles, alongside the vase. At the front, above an inscription, a
+    hand-painted decoration: a human figure keeping a two-headed dragon on a leash.
+    A centaur slaying a dragon adorns the back of the vase. Colours: shades of blue.
+    Inscription on the banderole: \"Aqu\xE6. Plantag:s\" (Aqu\xE6 Plantaginis). Aqua
+    Plantaginis is a water distillate of broadleaf plantain (Plantago major L.) \n\n\u201CPlantago
+    water is good for wounds, and because it is pungent, it is also good for any
+    diarrhoea, especially if one suffers from intestinal pain. It should be consumed
+    often, and it is also recommended as enema, which opens any clogged liver or
+    spleen, cools down inflamed blood, and allows the healthy body to grow over fistulas,
+    as it is conducive to tissue regeneration, especially of old wounds. It stops
+    haemorrhoidal bleeding, as long as one thoroughly washes their rectum, that is,
+    the final part of the large intestine, with it. It also soothes toothache, provided
+    one washes their oral cavity with it\u201D."
+  images: []
