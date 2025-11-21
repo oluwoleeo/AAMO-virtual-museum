@@ -53,7 +53,8 @@ PrefabInstance:
       value: fracture
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: -3946920807766512162, guid: f5b43bc537517432b883ae36bd1c9d4e, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5b43bc537517432b883ae36bd1c9d4e, type: 3}
