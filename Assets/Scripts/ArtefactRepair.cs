@@ -15,7 +15,7 @@ public class ArtefactRepair : MonoBehaviour
     GameObject slotInstance;
     [SerializeField] Transform completedPosition;
     [SerializeField] Transform fracturedPosition;
-    [SerializeField] float spacing;
+    [SerializeField] Vector3 initialRotation = new Vector3(0, 0, 0);
     GameObject[] pieceList;
     GameObject[] slotList;
     int pieceCount;
@@ -51,6 +51,7 @@ public class ArtefactRepair : MonoBehaviour
         // Instantiate the completed prefab as a child of the table at the completed position
         completedInstance = Instantiate(completedPrefab, transform);
         completedInstance.transform.position = completedPosition.position;
+        completedInstance.transform.eulerAngles = initialRotation;
 
         // todo: play completion sound or provide feedback for puzzle completion
 
@@ -147,6 +148,7 @@ public class ArtefactRepair : MonoBehaviour
         // Instantiate the completed prefab as a guide
         guideInstance = Instantiate(completedPrefab, transform);
         guideInstance.transform.position = completedPosition.position;
+        guideInstance.transform.eulerAngles = initialRotation;
 
         // Replace the guide material with the outline material
         MeshRenderer renderer = guideInstance.GetComponentInChildren<MeshRenderer>();
@@ -156,6 +158,7 @@ public class ArtefactRepair : MonoBehaviour
         // Instantiate the fractured prefab as a child of the table
         fracturedInstance = Instantiate(fracturedPrefab, transform);
         fracturedInstance.transform.position = completedPosition.position;
+        fracturedInstance.transform.eulerAngles = initialRotation;
 
         // Get all the individual pieces
         pieceCount = fracturedInstance.transform.childCount;
