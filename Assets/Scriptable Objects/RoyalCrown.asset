@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: RoyalCrown
   m_EditorClassIdentifier: 
   exhibitName: Royal Crown
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-    in culpa qui officia deserunt mollit anim id est laborum.
+  description: "Date: Modern \nCulture/Style: Inspired by European Royal Regalia
+    \nMaterials: Metal alloy, glass gemstones, velvet \nDescription \nThis ornate
+    crown is a modern reproduction inspired by traditional European royal regalia.
+    Designed as a prop rather than a ceremonial object, it features a velvet cap
+    enclosed by an openwork metal frame adorned with coloured glass jewels. The decorative
+    motifs\u2014floral clusters, filigree patterns, and cabochon stones\u2014imitate
+    the luxurious embellishment of historic crowns. "
   images: []

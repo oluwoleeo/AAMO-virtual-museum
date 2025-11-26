@@ -13,10 +13,21 @@ MonoBehaviour:
   m_Name: StereoscopicCamera
   m_EditorClassIdentifier: 
   exhibitName: Stereoscopic Camera
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-    in culpa qui officia deserunt mollit anim id est laborum.
+  description: "Stereoscopic Camera by Heinrich Ernemann \nGermany, Late 19th \u2013
+    Early 20th Century \nThis stereoscopic camera, produced by the Ernemann-Werke
+    company in Dresden, represents an important stage in the evolution of early photographic
+    technology. Featuring two precisely aligned lenses, the instrument was designed
+    to capture simultaneous images from slightly different angles, mirroring human
+    binocular vision. When viewed through a stereoscope, these paired photographs
+    created a striking three-dimensional effect, offering audiences one of the earliest
+    forms of immersive visual experience. \nHeinrich Ernemann\u2014an influential
+    German optical engineer\u2014was renowned for his precision craftsmanship and
+    innovations in shutter and lens design. Cameras of this type were widely used
+    for scientific documentation, travel photography, educational collections, and
+    popular entertainment, reflecting the era\u2019s fascination with realism and
+    depth perception. \nConstructed with durable metal fittings and a compact folding
+    housing, this camera showcases the engineering sophistication of pre-war German
+    optical manufacturing. Today, it stands as a key artifact in the history of photography,
+    illustrating the technological imagination that paved the way for modern 3D imaging
+    and virtual visualization methods. "
   images: []
