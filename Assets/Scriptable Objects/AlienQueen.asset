@@ -13,10 +13,16 @@ MonoBehaviour:
   m_Name: AlienQueen
   m_EditorClassIdentifier: 
   exhibitName: Alien Queen
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-    in culpa qui officia deserunt mollit anim id est laborum.
+  description: "The Alien Queen is a very large and dangerous creature in the game
+    ARK: Survival Evolved, found in the Aberration map. It looks like a mix between
+    a dinosaur and an alien, and it lives deep underground in dark, radioactive areas.
+    The Reaper Queen cannot be tamed like normal creatures. Instead, it uses a special
+    method: it \u201Cimpregnates\u201D the player with a baby Reaper, which later
+    grows into a powerful creature called a Reaper King. \n\nPlayers need special
+    protective suits to survive in the places where Reaper Queens live. They are
+    very strong and hard to defeat, so you must be well-prepared. Once you raise
+    the baby Reaper King, it becomes one of the strongest creatures in the game,
+    great for fighting and exploring dangerous areas. The Reaper Queen is inspired
+    by the alien monsters from the Alien movies, which makes it one of the most exciting
+    and scary creatures in ARK. "
   images: []
