@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: Counter
   m_EditorClassIdentifier: 
   exhibitName: Counter of the City Council
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-    in culpa qui officia deserunt mollit anim id est laborum.
+  description: "Date: 17th\u201318th Century \n\nCulture: European \n\nMaterial:
+    Carved and cast metal (likely silver or silver-plated) \n\nFunction: Writing
+    and administrative equipment \n\nDescription \n\nThis elaborately decorated writing
+    casket was used by a city scribe, a professional responsible for producing official
+    records, legal documents, and correspondence. The box contains compartments designed
+    to hold quills, inkpots, sealing wax, and other essential writing tools. Its
+    raised lid also served as a portable writing surface. "
   images: []
