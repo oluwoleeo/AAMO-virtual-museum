@@ -13,10 +13,20 @@ MonoBehaviour:
   m_Name: Archaeopteryx
   m_EditorClassIdentifier: 
   exhibitName: Archaeopteryx
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-    in culpa qui officia deserunt mollit anim id est laborum.
+  description: "The ARK Archaeopteryx is a small, bird-like creature in ARK: Survival
+    Evolved that first appeared in the Late Jurassic period. In the game, it is a
+    fearful, tree-dwelling carnivore that primarily eats chitin from insects. Archaeopteryx
+    cannot truly fly but can glide between trees, making it an important utility
+    creature for survivors. \nIn the wild, Archaeopteryx avoids the ground and flees
+    when threatened. It is found in forested areas across many ARK maps, including
+    The Island, Scorched Earth, Ragnarok, and Crystal Isles. Taming requires knocking
+    it out (often with a Bola to immobilize it) and feeding it Simple Kibble or Chitin.
+    Once tamed, it cannot be ridden but can be carried and used as an organic parachute,
+    slowing a survivor\u2019s descent when held during a fall. It can also collect
+    small amounts of sap when wandering near redwood trees. \n\nArchaeopteryx is
+    not a combat creature but is highly valued for safe gliding and emergency falls.
+    Breeding is possible, with eggs requiring an incubation temperature of 16\u201320
+    \xB0C and a total maturation time of about 15.5 hours. This creature remains
+    one of the most iconic utility pets in ARK for explorers navigating dangerous
+    heights. "
   images: []

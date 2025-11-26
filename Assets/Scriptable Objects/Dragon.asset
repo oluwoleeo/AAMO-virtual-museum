@@ -13,10 +13,17 @@ MonoBehaviour:
   m_Name: Dragon
   m_EditorClassIdentifier: 
   exhibitName: The Elder Scrolls Blades Ancient Dragon
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-    in culpa qui officia deserunt mollit anim id est laborum.
+  description: "The Elder Scrolls Blades Ancient Dragon is a very powerful dragon
+    that appears in the mobile game The Elder Scrolls: Blades. It is one of the toughest
+    enemies players can face, usually found in special quests and in the Abyss. Ancient
+    Dragons come in two types: fire and frost, and they can breathe deadly elemental
+    attacks. They are very large, winged reptiles and are considered legendary creatures
+    in the Elder Scrolls universe. \n\nThese dragons are weak to slashing and shock
+    damage, but they resist poison and cleaving attacks. When defeated, they drop
+    valuable items like Dragon Bones, Dragon Scales, and Dragon Claws, which are
+    used for crafting strong gear. Fighting an Ancient Dragon requires good weapons,
+    armor, and strategy because they can also use lightning spells and fly during
+    battle. \n\nAncient Dragons are iconic in Elder Scrolls lore, representing the
+    ultimate challenge for players who want to test their skills against one of the
+    most fearsome monsters in the game. "
   images: []

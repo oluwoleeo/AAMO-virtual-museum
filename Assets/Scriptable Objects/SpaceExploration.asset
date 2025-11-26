@@ -13,10 +13,17 @@ MonoBehaviour:
   m_Name: SpaceExploration
   m_EditorClassIdentifier: 
   exhibitName: Space Exploration
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-    in culpa qui officia deserunt mollit anim id est laborum.
+  description: "Space Exploration is the investigation of outer space using advanced
+    technology such as rockets, satellites, and telescopes. The term refers to activities
+    beyond Earth\u2019s atmosphere, including studying planets, stars, and galaxies.
+    It began in the mid-20th century and has led to major scientific discoveries.
+    \n\nThe first artificial satellite, Sputnik 1, was launched by the Soviet Union
+    in 1957. In 1961, Yuri Gagarin became the first human in space. The United States\u2019
+    Apollo 11 mission landed astronauts on the Moon in 1969. Today, exploration includes
+    the International Space Station, robotic missions to Mars, and telescopes like
+    Hubble and James Webb. \n\nSpacecraft are designed to survive harsh conditions
+    such as vacuum, radiation, and extreme temperatures. Missions aim to expand knowledge
+    of the universe, search for extraterrestrial life, and develop technology for
+    future interplanetary travel. Challenges include high costs, long durations,
+    and health risks for astronauts. "
   images: []
