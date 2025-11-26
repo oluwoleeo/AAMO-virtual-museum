@@ -13,10 +13,15 @@ MonoBehaviour:
   m_Name: SpaceStation
   m_EditorClassIdentifier: 
   exhibitName: Space Station
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-    in culpa qui officia deserunt mollit anim id est laborum.
+  description: "A space station is a large structure that orbits Earth and serves
+    as a home and workplace for astronauts. It is designed for long-term missions
+    in space, where scientists and engineers can perform experiments that cannot
+    be done on Earth. Space stations have living areas, laboratories, and equipment
+    to keep astronauts safe and healthy in zero gravity. \n\nThe most famous space
+    station today is the International Space Station (ISS), which is a joint project
+    by several countries, including the United States, Russia, Japan, Canada, and
+    European nations. Astronauts on the ISS study things like how plants grow in
+    space, how the human body changes without gravity, and how to build better technology
+    for future space travel. Space stations are important because they help us learn
+    more about space and prepare for missions to the Moon and Mars. "
   images: []
