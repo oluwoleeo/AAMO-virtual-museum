@@ -1,5 +1,5 @@
 using UnityEngine;
-using static UnityEngine.GridBrushBase;
+using UnityEngine.UI;
 
 public class ExhibitButton : MonoBehaviour
 {
@@ -10,6 +10,8 @@ public class ExhibitButton : MonoBehaviour
     GameObject uiInstance;
     [SerializeField] float rotationSpeed = 15f;
     bool rotateRight = true;
+    Button rotateLeftButton;
+    Button rotateRightButton;
 
     void OnTriggerEnter(Collider collider)
     {
@@ -17,6 +19,14 @@ public class ExhibitButton : MonoBehaviour
         {
             // Show Exhibit Information UI
             uiInstance = ShowExhibitInfo(uiInstance, transform, UIPrefab, exhibitData, uiPosition, uiRotation);
+
+            // Get the rotation button components
+            rotateLeftButton = uiInstance.transform.Find("Left Button").GetComponent<Button>();
+            rotateRightButton = uiInstance.transform.Find("Right Button").GetComponent<Button>();
+
+            // todo: Add listeners to the buttons
+            // rotateLeftButton.onClick += RotateLeft();
+            // rotateRightButton.onClick += RotateRight();
         }
     }
 
@@ -25,6 +35,15 @@ public class ExhibitButton : MonoBehaviour
         // Reset variables and destroy prefab instances
         if (uiInstance != null)
         {
+            // Remove listeners from the buttons
+            rotateLeftButton.onClick.RemoveAllListeners();
+            rotateRightButton.onClick.RemoveAllListeners();
+
+            // Reset button variables
+            rotateLeftButton = null;
+            rotateRightButton = null;
+
+            // Destroy the UI instance
             Destroy(uiInstance);
         }
     }
