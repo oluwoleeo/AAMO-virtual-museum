@@ -21,8 +21,9 @@ public class ExhibitButton : MonoBehaviour
             uiInstance = ShowExhibitInfo(uiInstance, transform, UIPrefab, exhibitData, uiPosition, uiRotation);
 
             // Get the rotation button components
-            rotateLeftButton = uiInstance.transform.Find("Left Button").GetComponent<Button>();
-            rotateRightButton = uiInstance.transform.Find("Right Button").GetComponent<Button>();
+            GameObject buttonParent = uiInstance.transform.Find("Rotation Buttons").gameObject;
+            rotateLeftButton = buttonParent.transform.Find("Left Button").GetComponent<Button>();
+            rotateRightButton = buttonParent.transform.Find("Right Button").GetComponent<Button>();
 
             // todo: Add listeners to the buttons
             // rotateLeftButton.onClick += RotateLeft();
@@ -36,8 +37,10 @@ public class ExhibitButton : MonoBehaviour
         if (uiInstance != null)
         {
             // Remove listeners from the buttons
-            rotateLeftButton.onClick.RemoveAllListeners();
-            rotateRightButton.onClick.RemoveAllListeners();
+            if (rotateLeftButton != null)
+                rotateLeftButton.onClick.RemoveAllListeners();
+            if (rotateRightButton != null)
+                rotateRightButton.onClick.RemoveAllListeners();
 
             // Reset button variables
             rotateLeftButton = null;
