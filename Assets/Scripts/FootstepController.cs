@@ -36,7 +36,7 @@ public class FootstepController : MonoBehaviour
 
             if (stepTimer >= stepInterval)
             {
-                SoundEffectsManager.Instance.PlaySound(footstepClip, transform);
+                SoundEffectsManager.Instance.PlaySound(footstepClip);
                 stepTimer = 0f;
             }
         }
