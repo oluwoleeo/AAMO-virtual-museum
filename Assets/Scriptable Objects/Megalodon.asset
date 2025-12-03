@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94872708bfe9e4851981e9e1837f1ac3, type: 3}
+  m_Name: Megalodon
+  m_EditorClassIdentifier: 
+  exhibitName: Megalodon
+  description: "Otodus megalodon, commonly known as megalodon, is an extinct species
+    of giant mackerel shark that lived approximately 23 to 3.6 million years ago
+    (Mya), from the Early Miocene to the Early Pliocene epochs. This prehistoric
+    fish was formerly thought to be a member of the familyLamnidae and a close relative
+    of the great white shark (Carcharodon carcharias), but has been reclassified
+    into the extinct family Otodontidae, which diverged from the great white shark
+    during the Early Cretaceous. \n\nWhile regarded as one of the largest and most
+    powerful predators to have ever lived, megalodon is only known from fragmentary
+    remains, and its appearance and maximum size are uncertain. Scientists have argued
+    whether its body form was more stocky or elongated than the modern lamniform
+    sharks. Maximum body length estimates between 14.2 and 24.3 metres (47 and 80
+    ft) based on various analyses have been proposed, though the modal lengths for
+    individuals of all ontogenetic stages from juveniles to adults are estimated
+    at 10.5 meters (34 ft). Their teeth were thick and robust, built for grabbing
+    prey and breaking bone, and their large jaws could exert a bite force of up to
+    108,500 to 182,200 newtons (24,390 to 40,960 lbf). "
+  images: []
