@@ -11,8 +11,8 @@ public class SoundEffectsManager : MonoBehaviour
     {
         if (Instance == null)
             Instance = this;
-        /* else
-            Destroy(gameObject); */
+        else
+            Destroy(gameObject);
     }
 
     public void PlaySound(AudioClip audioClip, Transform transform, float volume = 1f)
