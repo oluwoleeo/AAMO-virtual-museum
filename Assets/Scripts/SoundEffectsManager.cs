@@ -15,10 +15,11 @@ public class SoundEffectsManager : MonoBehaviour
             Destroy(gameObject);
     }
 
-    public void PlaySound(AudioClip audioClip, Transform transform, float volume = 1f)
+    public void PlaySound(AudioClip audioClip, float volume = 1f)
     {
         // instantiate sound FX prefab
-        AudioSource audioSource = Instantiate(soundEffectObject, transform.position, Quaternion.identity);
+        AudioSource audioSource = Instantiate(soundEffectObject, Camera.main.transform.position, Quaternion.identity);
+        audioSource.transform.parent = Camera.main.transform;
 
         // assign audio clip
         audioSource.clip = audioClip;
