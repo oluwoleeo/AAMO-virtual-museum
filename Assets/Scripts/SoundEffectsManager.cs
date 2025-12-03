@@ -23,6 +23,7 @@ public class SoundEffectsManager : MonoBehaviour
     {
         // instantiate sound FX prefab
         AudioSource audioSource = Instantiate(soundEffectObject, Camera.main.transform.position, Quaternion.identity);
+        audioSource.transform.parent = Camera.main.transform;
 
         // assign audio clip
         audioSource.clip = audioClip;
