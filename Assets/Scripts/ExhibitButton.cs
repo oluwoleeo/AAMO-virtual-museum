@@ -1,4 +1,5 @@
 using UnityEngine;
+using static UnityEngine.GridBrushBase;
 
 public class ExhibitButton : MonoBehaviour
 {
@@ -7,17 +8,8 @@ public class ExhibitButton : MonoBehaviour
     [SerializeField] Vector3 uiPosition = new Vector3(-1, 1.5f, 1.5f);
     [SerializeField] Vector3 uiRotation = new Vector3(0, 0, 0);
     GameObject uiInstance;
-    [SerializeField] float rotationSpeed = 1f;
+    [SerializeField] float rotationSpeed = 15f;
     bool rotateRight = true;
-    bool isRotating = false;
-    private void Update()
-    {
-        if (isRotating)
-        {
-            float rotationDirection = rotateRight ? 1f : -1f;
-            uiInstance.transform.Rotate(Vector3.up, rotationSpeed * rotationDirection * Time.deltaTime);
-        }
-    }
 
     void OnTriggerEnter(Collider collider)
     {
@@ -63,15 +55,13 @@ public class ExhibitButton : MonoBehaviour
     public void RotateRight()
     {
         rotateRight = true;
-        isRotating = true;
+        float rotationDirection = rotateRight ? 1f : -1f;
+        uiInstance.transform.Rotate(Vector3.up, rotationSpeed * rotationDirection * Time.deltaTime);
     }
     public void RotateLeft()
     {
         rotateRight = false;
-        isRotating = true;
-    }
-    public void StopRotation()
-    {
-        isRotating = false;
+        float rotationDirection = rotateRight ? 1f : -1f;
+        uiInstance.transform.Rotate(Vector3.up, rotationSpeed * rotationDirection * Time.deltaTime);
     }
 }
