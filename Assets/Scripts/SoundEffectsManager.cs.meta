@@ -5,6 +5,7 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - soundEffectObject: {fileID: 3475032085641482533, guid: 3fd20b7637c1f784eaebf0016809cef2, type: 3}
+  - music: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
