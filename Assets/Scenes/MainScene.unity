@@ -8819,7 +8819,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8421586220264744516, guid: c1bf1a2029c834465bb876e4ffdc0728, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 4.98
       objectReference: {fileID: 0}
     - target: {fileID: 8421586220264744516, guid: c1bf1a2029c834465bb876e4ffdc0728, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8898,7 +8898,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8421586220264744516, guid: c1bf1a2029c834465bb876e4ffdc0728, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 4.98
       objectReference: {fileID: 0}
     - target: {fileID: 8421586220264744516, guid: c1bf1a2029c834465bb876e4ffdc0728, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14119,7 +14119,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8421586220264744516, guid: c1bf1a2029c834465bb876e4ffdc0728, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 4.98
       objectReference: {fileID: 0}
     - target: {fileID: 8421586220264744516, guid: c1bf1a2029c834465bb876e4ffdc0728, type: 3}
       propertyPath: m_LocalPosition.z
@@ -19215,7 +19215,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8421586220264744516, guid: c1bf1a2029c834465bb876e4ffdc0728, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 4.98
       objectReference: {fileID: 0}
     - target: {fileID: 8421586220264744516, guid: c1bf1a2029c834465bb876e4ffdc0728, type: 3}
       propertyPath: m_LocalPosition.z
@@ -19588,15 +19588,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 698f32d26a52ecc45b178fa9bcc06304, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.45
+      value: 0.045
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 698f32d26a52ecc45b178fa9bcc06304, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.45
+      value: 0.045
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 698f32d26a52ecc45b178fa9bcc06304, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.45
+      value: 0.045
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 698f32d26a52ecc45b178fa9bcc06304, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25096,6 +25096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffectObject: {fileID: 3475032085641482533, guid: 3fd20b7637c1f784eaebf0016809cef2, type: 3}
+  music: {fileID: 0}
 --- !u!4 &2142775491
 Transform:
   m_ObjectHideFlags: 0
