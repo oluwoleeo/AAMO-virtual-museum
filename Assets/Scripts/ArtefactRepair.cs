@@ -28,6 +28,11 @@ public class ArtefactRepair : MonoBehaviour
     [SerializeField] Vector3 uiPosition = new Vector3(-1, 1.5f, 1.5f);
     [SerializeField] Vector3 uiRotation = new Vector3(0, 0, 0);
     GameObject uiInstance;
+    [Header("Sound Effects")]
+    [SerializeField] AudioClip correctSound;
+    [SerializeField] AudioClip incorrectSound;
+    [SerializeField] AudioClip completionSound;
+    [SerializeField] float soundVolume = 1.0f;
 
     void Start()
     {
@@ -53,7 +58,8 @@ public class ArtefactRepair : MonoBehaviour
         completedInstance.transform.position = completedPosition.position;
         completedInstance.transform.eulerAngles = initialRotation;
 
-        // todo: play completion sound or provide feedback for puzzle completion
+        // Play completion sound
+        SoundEffectsManager.Instance.PlaySound(completionSound, soundVolume);
 
         // Instantiate and play particle effect
         Instantiate(particleSystemPrefab, completedPosition.position, Quaternion.identity);
@@ -112,11 +118,13 @@ public class ArtefactRepair : MonoBehaviour
             // Freeze the piece rotation and transform
             rb.constraints = RigidbodyConstraints.FreezeAll;
 
-            // todo: Play success sound or provide feedback for correct placement
+            // Play success sound to provide feedback for correct placement
+            SoundEffectsManager.Instance.PlaySound(correctSound, soundVolume);
         }
         else
         {
-            // todo: Play error sound or provide feedback for incorrect placement
+            // Play error sound to provide feedback for incorrect placement
+            SoundEffectsManager.Instance.PlaySound(incorrectSound, soundVolume);
         }
     }
 
