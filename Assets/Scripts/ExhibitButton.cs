@@ -22,12 +22,12 @@ public class ExhibitButton : MonoBehaviour
 
             // Get the rotation button components
             GameObject buttonParent = uiInstance.transform.Find("Rotation Buttons").gameObject;
-            rotateLeftButton = buttonParent.transform.Find("Left Button").GetComponent<Button>();
-            rotateRightButton = buttonParent.transform.Find("Right Button").GetComponent<Button>();
+            rotateLeftButton = buttonParent.transform.Find("Left Button").GetComponentInChildren<Button>();
+            rotateRightButton = buttonParent.transform.Find("Right Button").GetComponentInChildren<Button>();
 
-            // todo: Add listeners to the buttons
-            // rotateLeftButton.onClick += RotateLeft();
-            // rotateRightButton.onClick += RotateRight();
+            // Add listeners to the buttons
+            rotateLeftButton.onClick.AddListener(RotateLeft);
+            rotateRightButton.onClick.AddListener(RotateRight);
         }
     }
 

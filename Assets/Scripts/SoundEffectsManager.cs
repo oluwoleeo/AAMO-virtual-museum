@@ -8,6 +8,7 @@ public class SoundEffectsManager : MonoBehaviour
     private AudioSource soundEffectObject;
     [SerializeField]
     private AudioClip music;
+    [SerializeField] float musicVolume = 0.25f;
 
     void Awake()
     {
@@ -16,7 +17,7 @@ public class SoundEffectsManager : MonoBehaviour
         else
             Destroy(gameObject);
 
-        PlaySound(music, .7f, true);
+        PlaySound(music, musicVolume, true);
     }
 
     public void PlaySound(AudioClip audioClip, float volume = 1f, bool loop = false)
