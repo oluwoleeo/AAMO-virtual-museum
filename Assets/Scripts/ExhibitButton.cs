@@ -8,6 +8,8 @@ public class ExhibitButton : MonoBehaviour
     [SerializeField] Vector3 uiPosition = new Vector3(-1, 1.5f, 1.5f);
     [SerializeField] Vector3 uiRotation = new Vector3(0, 0, 0);
     GameObject uiInstance;
+    [Header("Rotation Settings")]
+    [SerializeField] GameObject exhibitObject;
     [SerializeField] float rotationSpeed = 15f;
     bool rotateRight = true;
     Button rotateLeftButton;
@@ -77,13 +79,13 @@ public class ExhibitButton : MonoBehaviour
     public void RotateRight()
     {
         rotateRight = true;
-        float rotationDirection = rotateRight ? 1f : -1f;
-        uiInstance.transform.Rotate(Vector3.up, rotationSpeed * rotationDirection * Time.deltaTime);
+        float rotationDirection = rotateRight ? -1f : 1f;
+        exhibitObject.transform.Rotate(Vector3.up, rotationSpeed * rotationDirection);
     }
     public void RotateLeft()
     {
         rotateRight = false;
-        float rotationDirection = rotateRight ? 1f : -1f;
-        uiInstance.transform.Rotate(Vector3.up, rotationSpeed * rotationDirection * Time.deltaTime);
+        float rotationDirection = rotateRight ? -1f : 1f;
+        exhibitObject.transform.Rotate(Vector3.up, rotationSpeed * rotationDirection);
     }
 }
