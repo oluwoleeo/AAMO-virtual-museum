@@ -6,5 +6,5 @@ public class ExhibitDataSO : ScriptableObject
     public string exhibitName;
     [TextArea(15, 20)]
     public string description;
-    public Sprite[] images;
+    public AudioClip audio;
 }
