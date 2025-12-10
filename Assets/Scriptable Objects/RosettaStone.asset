@@ -13,16 +13,11 @@ MonoBehaviour:
   m_Name: RosettaStone
   m_EditorClassIdentifier: 
   exhibitName: Rosetta Stone
-  description: "The Rosetta Stone is a stone with writing carved into it. There are
+  description: The Rosetta Stone is a stone with writing carved into it. There are
     3 types of writing on the Rosetta stone; Greek, Egyptian, and another form of
     Egyptian writing. French soldiers found it in Egypt in 1799. It helped people
     get a better understanding of the Ancient Egyptian writing system called hieroglyphics.
     Its discovery led to the translation of Ancient Egyptian writing. The stone is
     named after the city where it was found, Rosetta (also called Rashid). The stone
-    is now in the British Museum in London. \n\nIt had three pieces of writing on
-    it that said the same thing in two different languages. Two pieces of writing
-    were written in Ancient Egyptian, but in two different scripts: Demotic and hieroglyphics.
-    The third writing was written in Ancient Greek. \n\nThe historians could already
-    read the Greek. Using this knowledge, they were able to work out how to read
-    the Egyptian scripts. "
-  images: []
+    is now in the British Museum in London.
+  audio: {fileID: 8300000, guid: a311eb32799731844ac607f863d5b2a8, type: 3}

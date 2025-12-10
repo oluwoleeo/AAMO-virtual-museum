@@ -25355,7 +25355,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffectObject: {fileID: 3475032085641482533, guid: 3fd20b7637c1f784eaebf0016809cef2, type: 3}
   music: {fileID: 8300000, guid: 75a4901088d9d48eca15089dc59f3987, type: 3}
-  musicVolume: 0.001
+  musicVolume: 0.05
 --- !u!4 &2142775491
 Transform:
   m_ObjectHideFlags: 0

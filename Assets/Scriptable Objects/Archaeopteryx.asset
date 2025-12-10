@@ -17,16 +17,9 @@ MonoBehaviour:
     Evolved that first appeared in the Late Jurassic period. In the game, it is a
     fearful, tree-dwelling carnivore that primarily eats chitin from insects. Archaeopteryx
     cannot truly fly but can glide between trees, making it an important utility
-    creature for survivors. \nIn the wild, Archaeopteryx avoids the ground and flees
-    when threatened. It is found in forested areas across many ARK maps, including
-    The Island, Scorched Earth, Ragnarok, and Crystal Isles. Taming requires knocking
-    it out (often with a Bola to immobilize it) and feeding it Simple Kibble or Chitin.
-    Once tamed, it cannot be ridden but can be carried and used as an organic parachute,
-    slowing a survivor\u2019s descent when held during a fall. It can also collect
-    small amounts of sap when wandering near redwood trees. \n\nArchaeopteryx is
-    not a combat creature but is highly valued for safe gliding and emergency falls.
-    Breeding is possible, with eggs requiring an incubation temperature of 16\u201320
-    \xB0C and a total maturation time of about 15.5 hours. This creature remains
+    creature for survivors. \r\nIn the wild, Archaeopteryx avoids the ground and
+    flees when threatened. It is found in forested areas across many ARK maps, including
+    The Island, Scorched Earth, Ragnarok, and Crystal Isles. This creature remains
     one of the most iconic utility pets in ARK for explorers navigating dangerous
     heights. "
-  images: []
+  audio: {fileID: 8300000, guid: 220800dc184ec4146a5cb5e3ec4ddd7e, type: 3}
