@@ -1,14 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
     public static bool paused = false;
     public GameObject pausemenucanvas;
-   
-     // Start is called before the first frame update
+    [SerializeField] AudioMixer audioMixer;
+
+    // Start is called before the first frame update
     void Start()
     {
         Time.timeScale = 1f;
@@ -48,6 +48,16 @@ public class PauseMenu : MonoBehaviour
     public void MainMenuButton()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+
+    public void SetPaused()
+    {
+        paused = !paused;
+    }
+
+    public void SetVolume(float volume)
+    {
+        audioMixer.SetFloat("MasterVolume", Mathf.Log10(volume) * 20);
 
     }
 }
