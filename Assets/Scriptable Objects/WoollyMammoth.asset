@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WoollyMammoth
   m_EditorClassIdentifier: 
   exhibitName: Woolly Mammoth
-  description: "The woolly mammoth (Mammuthus primigenius) is a species of mammoth
+  description: The woolly mammoth (Mammuthus primigenius) is a species of mammoth
     that lived from the Pleistocene period until the last ones died in the Holocene
     epoch. Woolly mammoths are now extinct, so we cannot see them anymore. They were
     large elephants which lived during the ice ages. The animal is known from bones
@@ -21,10 +21,5 @@ MonoBehaviour:
     carcasses (including Yuka) were found in Siberia. These mammoths are perhaps
     the most well known and most iconic species of mammoth. This mammoth species
     was first recorded in deposits of a former glaciation in Eurasia, perhaps 150,000
-    years ago.[1][2] Their closest living relatives are Asian elephants. \n\nWoolly
-    mammoths coexisted with early humans, who hunted them, and their bones and tusks
-    were used as tools, and dwellings. Mammoths were also hunted for food. The species
-    disappeared from most of its range at the end of the Pleistocene (10,000 years
-    ago), but a dwarfed race and small populations still lived on Wrangel Island
-    until about 1700 BC."
-  images: []
+    years ago. Their closest living relatives are Asian elephants.
+  audio: {fileID: 8300000, guid: 53254c9cbe06abd47802657d4a2ea293, type: 3}

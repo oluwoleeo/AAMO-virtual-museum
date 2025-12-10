@@ -13,22 +13,13 @@ MonoBehaviour:
   m_Name: RavenSpaceship
   m_EditorClassIdentifier: 
   exhibitName: Raven Spaceship
-  description: "Raven-Class Starcraft (Model v.2) \nDigital Reconstruction \u2013
-    Star Conflict Era \nThis exhibit presents a detailed digital model of the Raven-Class
-    Starcraft, a lightweight tactical vessel commonly used during the Star Conflict
-    Period, an era defined by rapid technological advancement and territorial expansion
-    across the Outer Rim sectors. \nThe Raven-Class fighter is distinguished by its
-    angular wing structure, reinforced alloy plating, and quad-engine propulsion
+  description: "The Raven-Class Starcraft is a lightweight tactical vessel commonly
+    used during the Star Conflict Period, an era defined by rapid technological advancement
+    and territorial expansion across the Outer Rim sectors. \nIt is distinguished
+    by its angular wing structure, reinforced alloy plating, and quad-engine propulsion
     system, which emitted four bright linear trails during high-speed travel. Its
     compact frame and aerodynamic design allowed exceptional maneuverability, making
     it a preferred craft for scouting missions, defensive patrols, and precision
     strike operations. \nCircular emblems visible on the wings represent fleet insignia
-    of the period, suggesting the craft belonged to a coordinated military force.
-    The Raven\u2019s engineering reflects the shift from heavy cruiser dominance
-    to fast, efficient, pilot-driven spacecraft. \nThis digital rendering is part
-    of the museum\u2019s Interstellar Technology Preservation Program, which aims
-    to reconstruct historical starship designs for educational and cultural study.
-    The model on display provides insight into the craftsmanship, combat strategy,
-    and aesthetic principles that shaped spacecraft development during the Star Conflict
-    Era. "
-  images: []
+    of the period, suggesting the craft belonged to a coordinated military force."
+  audio: {fileID: 8300000, guid: 9b608a99b3962ed4888735e2336e3c54, type: 3}

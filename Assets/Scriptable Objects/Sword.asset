@@ -22,4 +22,4 @@ MonoBehaviour:
     of the blade features an inscription specific to Tula while the other side bears
     a quotation attributed to Alexander Nevsky: "Who with a sword will come to us,
     he will die by the sword".'
-  images: []
+  audio: {fileID: 8300000, guid: bb4e17394abe7d14596bbf1625e0a276, type: 3}

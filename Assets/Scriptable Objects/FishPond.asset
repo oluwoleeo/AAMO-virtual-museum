@@ -15,4 +15,4 @@ MonoBehaviour:
   exhibitName: Fish Pond
   description: A fish-pond sculpture made of earthenware discovered in a tomb in
     China
-  images: []
+  audio: {fileID: 8300000, guid: 16617ff93fe4fce4aba76fe3b22f09fe, type: 3}

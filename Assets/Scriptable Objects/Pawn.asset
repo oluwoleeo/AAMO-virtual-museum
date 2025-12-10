@@ -15,4 +15,4 @@ MonoBehaviour:
   exhibitName: A Pawn from the Lewis Chessman
   description: 'Chess-piece; walrus ivory; pawn; rounded top; flat sides; front and
     back: bevelled edges.'
-  images: []
+  audio: {fileID: 8300000, guid: 889c70855e3bb8d40b798fe98353da00, type: 3}

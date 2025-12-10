@@ -13,15 +13,9 @@ MonoBehaviour:
   m_Name: Train
   m_EditorClassIdentifier: 
   exhibitName: 'General Electric ES44AC Black '
-  description: "United States, Early 21st Century \n\nThis locomotive is part of
-    the Evolution Series, a landmark family of diesel-electric engines developed
-    by General Electric to meet the environmental and efficiency standards of the
-    21st century. Introduced in the mid-2000s, the ES44AC became one of the most
-    widely used freight locomotives across North America, valued for its 4,400-horsepower
-    output, AC traction technology, and reduced emissions compared to earlier models.
-    \n\nFeaturing a wide-cab design, reinforced frame, and advanced dynamic braking
-    systems, the ES44AC was engineered for long-distance heavy freight operations
-    on major railroads. Its GEVO-12 prime mover represented a significant step forward
-    in cleaner-burning diesel technology, marking a turning point in the shift toward
-    more sustainable rail transport. "
-  images: []
+  description: This locomotive is part of the Evolution Series, a landmark family
+    of diesel-electric engines developed by General Electric to meet the environmental
+    and efficiency standards of the 21st century. Introduced in the mid-2000s, the
+    ES44AC features a wide-cab design, reinforced frame, and advanced dynamic braking
+    systems.
+  audio: {fileID: 8300000, guid: 4d1445914fb9b604da3dc78a35e880de, type: 3}

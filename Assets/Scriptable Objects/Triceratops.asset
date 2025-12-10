@@ -13,14 +13,10 @@ MonoBehaviour:
   m_Name: Triceratops
   m_EditorClassIdentifier: 
   exhibitName: Triceratops
-  description: "Triceratops was a huge herbivorous ceratopsid dinosaur from the late
+  description: Triceratops was a huge herbivorous ceratopsid dinosaur from the late
     Cretaceous. Its name means three horned face which it gets from having three
     horns on its head. They were mainly found in North America. As adults, they grew
     up to 9 m (30 ft) long by 3 m (9.8 ft) tall and probably weighed around 12 t
     (26,000 lb). Fully-grown, their skull was enormous (two meters long and nearly
-    a meter wide). \n\nTriceratops was a low browser with a bony beak in front of
-    its jaws. The jaws had close-set grinding teeth. Its defence had to stand up
-    to attacks from taller theropods, hence the bony shield which covered its neck.
-    Holes made by teeth have been found on the bony frill behind the horns, and on
-    the sacrum (the part of the spine above the pelvis). "
-  images: []
+    a meter wide).
+  audio: {fileID: 8300000, guid: 6a1c26d6e0a62b845abfc4abefd30a6e, type: 3}

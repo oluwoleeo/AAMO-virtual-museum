@@ -18,11 +18,7 @@ MonoBehaviour:
     a dinosaur and an alien, and it lives deep underground in dark, radioactive areas.
     The Reaper Queen cannot be tamed like normal creatures. Instead, it uses a special
     method: it \u201Cimpregnates\u201D the player with a baby Reaper, which later
-    grows into a powerful creature called a Reaper King. \n\nPlayers need special
-    protective suits to survive in the places where Reaper Queens live. They are
-    very strong and hard to defeat, so you must be well-prepared. Once you raise
-    the baby Reaper King, it becomes one of the strongest creatures in the game,
-    great for fighting and exploring dangerous areas. The Reaper Queen is inspired
+    grows into a powerful creature called a Reaper King.The Reaper Queen is inspired
     by the alien monsters from the Alien movies, which makes it one of the most exciting
     and scary creatures in ARK. "
-  images: []
+  audio: {fileID: 8300000, guid: b1c62bd0cdcf9a94a80bc764ce1ef28b, type: 3}

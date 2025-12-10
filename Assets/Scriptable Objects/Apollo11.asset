@@ -15,9 +15,9 @@ MonoBehaviour:
   exhibitName: Apollo 11 Command Module
   description: The Apollo command and service module (CSM) was one of two spacecraft,
     along with the Lunar Module, used for the United States Apollo program which
-    landed astronauts on the Moon.[1] It was built for NASA by North American Aviation.
+    landed astronauts on the Moon. It was built for NASA by North American Aviation.
     It was launched by itself on three suborbital and low Earth orbit Apollo test
     missions using the Saturn I launch vehicle. It was also launched twelve times
     on the larger Saturn V launch vehicle, both by itself and with the Lunar Module.
     It made a total of nine manned flights to the Moon boosted by the Saturn V.
-  images: []
+  audio: {fileID: 8300000, guid: 816abf43196cfef44b1feeefe28a5ec1, type: 3}

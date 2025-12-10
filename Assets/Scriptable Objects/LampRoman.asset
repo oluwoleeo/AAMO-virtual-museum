@@ -17,7 +17,7 @@ MonoBehaviour:
     a rounded shoulder decorated with impressed ovules, and an inward-sloping moulded
     rim. At the rear is a broken ring-handle. Between the nozzle volutes is an air-hole.
     The discus is decorated with two gladiators, a samnite and a hoplomachus, fighting.
-    Below them is the inscription \u201CACVVIVS.V HERMEROSS.\u201D GIVING their names,
+    Below them is the inscription \u201CACVVIVS.V HERMEROSS.\u201D Giving their names,
     Acuvius and Hermeros. In the centre of the slightly raised base is a foot-print
-    with traces of relief letters. Covered with a finger-marked orange-brown slip."
-  images: []
+    with traces of relief letters, covered with a finger-marked orange-brown slip."
+  audio: {fileID: 8300000, guid: 786571c0aebdb0340888e0f8d8403e15, type: 3}
