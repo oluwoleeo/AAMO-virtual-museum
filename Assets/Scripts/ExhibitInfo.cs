@@ -1,11 +1,22 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ExhibitInfo : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI titleText;
     [SerializeField] TextMeshProUGUI descriptionText;
+    [SerializeField] Slider audioSlider;
     [SerializeField] AudioSource audioSource;
+
+    void Update()
+    {
+        // Update the audio slider based on audio playback
+        if (audioSource.clip != null)
+        {
+            audioSlider.value = audioSource.time / audioSource.clip.length;
+        }
+    }
     public void SetText(ExhibitDataSO data)
     {
         if (data == null)
