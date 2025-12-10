@@ -7544,7 +7544,6 @@ GameObject:
   - component: {fileID: 722660266}
   - component: {fileID: 722660265}
   - component: {fileID: 722660264}
-  - component: {fileID: 722660263}
   m_Layer: 0
   m_Name: Settings Menu
   m_TagString: Untagged
@@ -7552,20 +7551,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &722660263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 722660262}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 805d43cc44e422746a44f2f8a6d056c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pausemenucanvas: {fileID: 722660262}
-  audioMixer: {fileID: 0}
 --- !u!114 &722660264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7636,7 +7621,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722660262}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
@@ -7646,11 +7631,11 @@ RectTransform:
   - {fileID: 1671359207}
   - {fileID: 991158585}
   - {fileID: 2338925}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1045196121}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -948, y: -409.5}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!1001 &726605064
@@ -11456,6 +11441,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 02af6a0ed1fd44cc2bcbd733b0303e34, type: 3}
   m_PrefabInstance: {fileID: 1042371442}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1045196119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1045196121}
+  - component: {fileID: 1045196120}
+  m_Layer: 0
+  m_Name: Menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1045196120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045196119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805d43cc44e422746a44f2f8a6d056c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pausemenucanvas: {fileID: 722660262}
+  audioMixer: {fileID: 24100000, guid: 99a64d0e7e951e54abdf0091e5dcf4aa, type: 2}
+--- !u!4 &1045196121
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045196119}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 948, y: 409.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 722660267}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1047906975
 GameObject:
   m_ObjectHideFlags: 0
@@ -19044,7 +19076,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 722660263}
+      - m_Target: {fileID: 1045196120}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: SetPaused
         m_Mode: 1
@@ -21134,7 +21166,7 @@ GameObject:
   - component: {fileID: 1671359209}
   - component: {fileID: 1671359208}
   m_Layer: 0
-  m_Name: MainMenue
+  m_Name: MainMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21216,7 +21248,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 722660263}
+      - m_Target: {fileID: 1045196120}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: SetPaused
         m_Mode: 1
@@ -22087,14 +22119,14 @@ MonoBehaviour:
   m_FillRect: {fileID: 1709201330}
   m_HandleRect: {fileID: 2093186594}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.001
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 722660263}
+      - m_Target: {fileID: 1045196120}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: SetVolume
         m_Mode: 0
@@ -26817,7 +26849,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffectObject: {fileID: 3475032085641482533, guid: 3fd20b7637c1f784eaebf0016809cef2, type: 3}
   music: {fileID: 8300000, guid: 75a4901088d9d48eca15089dc59f3987, type: 3}
-  musicVolume: 0.25
+  musicVolume: 1
   audioMixerGroup: {fileID: 5114992333121365090, guid: 99a64d0e7e951e54abdf0091e5dcf4aa, type: 2}
 --- !u!4 &2142775491
 Transform:
@@ -27897,7 +27929,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1386734093}
-  - {fileID: 722660267}
+  - {fileID: 1045196121}
   - {fileID: 2142775491}
   - {fileID: 705507995}
   - {fileID: 1047906980}
