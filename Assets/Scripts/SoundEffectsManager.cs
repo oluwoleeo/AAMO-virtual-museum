@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class SoundEffectsManager : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class SoundEffectsManager : MonoBehaviour
     [SerializeField]
     private AudioClip music;
     [SerializeField] float musicVolume = 0.25f;
+    [SerializeField]
+    private AudioMixerGroup audioMixerGroup;
 
     void Awake()
     {
@@ -32,6 +35,9 @@ public class SoundEffectsManager : MonoBehaviour
         // set volume
         audioSource.volume = volume;
         audioSource.loop = loop;
+
+        if (loop)
+            audioSource.outputAudioMixerGroup = audioMixerGroup;
 
         // play sound
         audioSource.Play();
